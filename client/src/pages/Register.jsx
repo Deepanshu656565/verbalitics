@@ -138,7 +138,7 @@ export default function Register() {
           {/* VANSH Signature */}
           <div className="jaat-badge">
             <span className="jaat-by">Built by</span>
-            <span className="jaat-name">VANSH</span>
+            <span className="jaat-name">Team X</span>
           </div>
 
           <div className="brand-orb brand-orb-1" />
@@ -285,7 +285,7 @@ export default function Register() {
           <div className="jaat-footer">
             <span>© 2026 Verbalytics AI</span>
             <span className="jaat-footer-dot">·</span>
-            <span>Crafted by <strong className="gradient-text">VANSH</strong></span>
+            <span>Crafted by <strong className="gradient-text">Team X</strong></span>
           </div>
         </div>
       </div>

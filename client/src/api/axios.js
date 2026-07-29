@@ -1,9 +1,13 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',             // proxied to http://localhost:5000/api via vite.config.js
-  timeout: 30000,              // 30s timeout for AI responses
-  headers: { 'Content-Type': 'application/json' },
+  baseURL: import.meta.env.DEV
+    ? '/api'
+    : 'https://verbalitics.onrender.com/api',
+  timeout: 30000,
+  headers: {
+    'Content-Type': 'application/json',
+  },
 });
 
 // Request interceptor — attach JWT token automatically

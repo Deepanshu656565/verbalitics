@@ -68,7 +68,7 @@ export default function Sidebar() {
 
       {/* VANSH Signature — always visible */}
       <div className="sidebar-jaat">
-        <span>by <strong>VANSH</strong></span>
+        <span>by <strong>Team X</strong></span>
       </div>
 
       <style>{`
